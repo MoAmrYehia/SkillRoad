@@ -2,17 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3db8fb39-c35a-4d2a-bdc8-8506a1c8e0a1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/flask-env/client/src/components/Navbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flask-env/client/src/components/logo_b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flask-env/server/static/react/js/2.00728d99.chunk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flask-env/server/static/react/js/2.00728d99.chunk.js.LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flask-env/server/static/react/js/2.00728d99.chunk.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flask-env/server/static/react/js/main.6ae37f3a.chunk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flask-env/server/static/react/js/main.6ae37f3a.chunk.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flask-env/server/static/react/media/logo_b.1aba88ac.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flask-env/server/static/react/precache-manifest.30c4f52bebb827f84d91e6745af2b0d1.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask-env/client/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask-env/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/flask-env/client/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flask-env/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/flask-env/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask-env/client/src/components/FileSubmission.js" beforeDir="false" afterPath="$PROJECT_DIR$/flask-env/client/src/components/FileSubmission.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask-env/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/flask-env/client/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask-env/client/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/flask-env/client/src/components/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask-env/client/src/components/LandingPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/flask-env/client/src/components/LandingPage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flask-env/server/static/react/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/flask-env/server/static/react/asset-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask-env/server/static/react/js/2.770573d9.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask-env/server/static/react/js/2.770573d9.chunk.js.LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask-env/server/static/react/js/2.770573d9.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask-env/server/static/react/js/main.5d752e85.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask-env/server/static/react/js/main.5d752e85.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask-env/server/static/react/precache-manifest.1cda76956a58ea39b8d364e1b2711a73.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask-env/server/static/react/js/2.12c882af.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask-env/server/static/react/js/2.12c882af.chunk.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask-env/server/static/react/js/2.12c882af.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask-env/server/static/react/js/main.20e2d534.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask-env/server/static/react/js/main.20e2d534.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask-env/server/static/react/precache-manifest.6a9f49baa5954e240e5e5e207d441b5c.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/flask-env/server/static/react/service-worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/flask-env/server/static/react/service-worker.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flask-env/server/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/flask-env/server/templates/index.html" afterDir="false" />
     </list>
@@ -21,26 +32,50 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1cumGVVg1tT1AzyxRmtRbkkoJxe" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/flask-env/client/src/components" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/flask-env/client/src/components" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/flask-env/client/public" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -55,11 +90,15 @@
       <workItem from="1591386758781" duration="20000" />
       <workItem from="1591402189679" duration="4715000" />
       <workItem from="1591409611769" duration="1345000" />
+      <workItem from="1591458197673" duration="3726000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="634" y="325" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1591404988674">

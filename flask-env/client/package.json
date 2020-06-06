@@ -139,5 +139,10 @@
     "presets": [
       "react-app"
     ]
+  },
+  "devDependencies": {
+    "@material-ui/core": "^4.10.1",
+    "@material-ui/icons": "^4.9.1",
+    "reactstrap": "^8.4.1"
   }
 }

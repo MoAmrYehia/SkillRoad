@@ -50,7 +50,7 @@ class FileSubmission extends Component {
       method: "POST",
       body: data,
     }).then((res) => {
-      console.log(res.statusText);
+      console.log(res);
     });
   };
 

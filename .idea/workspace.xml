@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3db8fb39-c35a-4d2a-bdc8-8506a1c8e0a1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/flask-env/client/src/components/Footer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flask-env/client/src/components/Header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flask-env/client/src/components/LandingPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask-env/client/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask-env/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/flask-env/client/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask-env/client/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask-env/client/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask-env/client/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/flask-env/client/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask-env/client/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask-env/client/src/serviceWorker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask-env/client/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask-env/server/static/react/asset-manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask-env/server/static/react/css/main.5f361e03.chunk.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask-env/server/static/react/css/main.5f361e03.chunk.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask-env/server/static/react/js/2.3e9221e2.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask-env/server/static/react/js/2.3e9221e2.chunk.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask-env/server/static/react/js/2.3e9221e2.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask-env/server/static/react/js/main.01f38ccb.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask-env/server/static/react/js/main.01f38ccb.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask-env/server/static/react/js/runtime-main.090a05d6.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask-env/server/static/react/js/runtime-main.090a05d6.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask-env/server/static/react/media/logo.5d5d9eef.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask-env/server/static/react/precache-manifest.6f207d0368a3b31eee825191508e7a02.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask-env/server/static/react/service-worker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask-env/server/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/flask-env/server/templates/index.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1cumGVVg1tT1AzyxRmtRbkkoJxe" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3db8fb39-c35a-4d2a-bdc8-8506a1c8e0a1" name="Default Changelist" comment="" />
+      <created>1591386756364</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591386756364</updated>
+      <workItem from="1591386758781" duration="20000" />
+      <workItem from="1591402189679" duration="2260000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="634" y="325" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1591404988674">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="634" y="325" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1920.23.1920.1057/1792.23.1680.965/0.23.1792.1097@0.23.1792.1097" timestamp="1591404988674" />
+  </component>
+</project>

@@ -7,6 +7,7 @@ from datetime import datetime
 from http_status import HttpStatus
 from models import Profile
 import pickle
+import werkzeug
 from werkzeug.utils import secure_filename
 
 UPLOAD_FOLDER = './static/pdf_files'
@@ -61,18 +62,20 @@ profile_manager = ProfileManager()
 
 class ModelResponseList(Resource):
 
-    @marshal_with(profile_fields)
+    # @marshal_with(profile_fields)
     def post(self):
-        # parser = reqparse.RequestParser()
-        # parser.add_argument('file', 
-        #     type=werkzeug.datastructures.FileStorage, 
-        #     location='files', 
-        #     required=True, 
-        #     help='File has to be submitted!')
+        parser = reqparse.RequestParser()
+        parser.add_argument('files', 
+            type=werkzeug.datastructures.FileStorage, 
+            location='files', 
+            required=True, 
+            help='File has to be submitted!')
 
-        # args = parser.parse_args()
+        args = parser.parse_args()
 
-        # file = args['file']
+        file = args['files']['file']
+
+        profile = {"message": file}
 
         # profile = Profile(
         #     name = None,
@@ -88,7 +91,8 @@ class ModelResponseList(Resource):
         # )
         # profile_manager.insert_response(profile)
 
-        # return profile, HttpStatus.created_201.value
+        return profile, HttpStatus.created_201.value
+
         file = request['file']
         filename = secure_filename(file.filename)
         destination="/".join(UPLOAD_FOLDER)

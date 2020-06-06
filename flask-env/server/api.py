@@ -1,14 +1,20 @@
-from flask import Flask, render_template
+import os
+
+from flask import Flask, render_template, request
 from flask_restful import abort, Api, fields, marshal_with, reqparse, Resource
-import werkzeug
 
 from datetime import datetime
 from http_status import HttpStatus
 from models import Profile
 import pickle
-from pytz import utc
+from werkzeug.utils import secure_filename
+
+UPLOAD_FOLDER = './static/pdf_files'
+ALLOWED_EXTENSIONS = set(['pdf'])
 
 app = Flask(__name__)
+app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
+
 # model = pickle.load(open('model.pkl', 'rb'))
 
 class ProfileManager():
@@ -57,27 +63,39 @@ class ModelResponseList(Resource):
 
     @marshal_with(profile_fields)
     def post(self):
-        parser = reqparse.RequestParser()
-        parser.add_argument('file', type=werkzeug.datastructures.FileStorage, location='files', required=True, help='File has to be submitted!')
-        args = parser.parse_args()
+        # parser = reqparse.RequestParser()
+        # parser.add_argument('file', 
+        #     type=werkzeug.datastructures.FileStorage, 
+        #     location='files', 
+        #     required=True, 
+        #     help='File has to be submitted!')
 
-        file = args['file']
+        # args = parser.parse_args()
 
-        profile = Profile(
-            name = None,
-            email = None,
-            phone = None,
-            university = None,
-            languages = None,
-            experience = None,
-            os = None,
-            programming_skills = None,
-            db_skills = None,
-            ml_skills = None
-        )
-        profile_manager.insert_response(profile)
+        # file = args['file']
 
-        return profile, HttpStatus.created_201.value
+        # profile = Profile(
+        #     name = None,
+        #     email = None,
+        #     phone = None,
+        #     university = None,
+        #     languages = None,
+        #     experience = None,
+        #     os = None,
+        #     programming_skills = None,
+        #     db_skills = None,
+        #     ml_skills = None
+        # )
+        # profile_manager.insert_response(profile)
+
+        # return profile, HttpStatus.created_201.value
+        file = request['file']
+        filename = secure_filename(file.filename)
+        destination="/".join(UPLOAD_FOLDER)
+        file.save(destination)
+        
+        response = {"message": "OK"}
+        return response
 
 @app.route('/')
 def index():

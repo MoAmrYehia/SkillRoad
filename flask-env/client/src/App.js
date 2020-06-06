@@ -1,8 +1,10 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+
 import Header from "./components/Header";
 import LandingPage from "./components/LandingPage";
 import Footer from "./components/Footer";
+import FileSubmission from "./components/FileSubmission";
 
 class App extends Component {
   render() {
@@ -29,6 +31,11 @@ class App extends Component {
                   Footer
                 </Link>
               </li>
+              <li>
+                <Link to={"/submit"} className="nav-link">
+                  FileSubmission
+                </Link>
+              </li>
             </ul>
           </nav>
           <hr />
@@ -36,6 +43,7 @@ class App extends Component {
             <Route exact path="/" component={LandingPage} />
             <Route path="/header" component={Header} />
             <Route path="/footer" component={Footer} />
+            <Route path="/submit" component={FileSubmission} />
           </Switch>
         </div>
       </Router>

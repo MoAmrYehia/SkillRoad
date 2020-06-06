@@ -29,6 +29,6 @@ def upload_and_predict():
 
     print({"filename": filename})
     return jsonify({"filename": filename}), HttpStatus.ok_200.value
-
+    
 if __name__ == '__main__':
     app.run(debug=True)

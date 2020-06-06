@@ -1,16 +1,19 @@
 import React, { Fragment } from "react";
 import Home from "./Home"
 import Button from "react-bootstrap/Button";
-import ProfilePage from "./ProfilePage/ProfilePage";
+import {Link} from 'react-router-dom'
+
 
 function LandingPage() {
-  return (
-    <Fragment>
-      <Home />
-      <div className="text-center">
-          <Button variant="dark" href="profile">Try it out</Button>
-      </div>
-    </Fragment>
-  );
+    return (
+        <Fragment>
+            <Home />
+            <div className="text-center">
+                <Link to={"/profile"}>
+                    <Button variant="dark" >Start your SkillRoad</Button>
+                </Link>
+            </div>
+        </Fragment>
+    );
 }
 export default LandingPage;

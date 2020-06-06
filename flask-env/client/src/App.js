@@ -40,10 +40,10 @@ class App extends Component {
           </nav>
           <hr />
           <Switch>
-            <Route exact path="/" component={LandingPage} />
             <Route path="/header" component={Header} />
-            <Route path="/footer" component={Footer} />
+            <Route exact path="/" component={LandingPage} />
             <Route path="/submit" component={FileSubmission} />
+            <Route path="/footer" component={Footer} />
           </Switch>
         </div>
       </Router>

@@ -16,7 +16,7 @@ class App extends Component {
   render() {
     return (
       <Router>
-        <div>
+        <div className="#9CF6F6">
           <Header />
           <Switch>
             <Route exact path="/" component={LandingPage} />

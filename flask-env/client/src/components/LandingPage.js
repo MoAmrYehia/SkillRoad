@@ -1,14 +1,15 @@
 import React, { Fragment } from "react";
-import Footer from "./Footer";
-import ProfilePage from "./ProfilePage/ProfilePage";
 import Home from "./Home"
+import Button from "react-bootstrap/Button";
+import ProfilePage from "./ProfilePage/ProfilePage";
 
 function LandingPage() {
   return (
     <Fragment>
       <Home />
-      <ProfilePage />
-      <Footer />
+      <div className="text-center">
+          <Button variant="dark" href="profile">Try it out</Button>
+      </div>
     </Fragment>
   );
 }

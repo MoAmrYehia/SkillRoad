@@ -47,4 +47,4 @@ class FileSubmission extends React.Component {
     }
 }
 
-export default FileSubmission
+export default FileSubmission;

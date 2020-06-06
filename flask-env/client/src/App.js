@@ -13,7 +13,7 @@ class App extends Component {
       <Router>
         <div>
           <h2>Welcome to SkillRoad</h2>
-          <nav className="navbar navbar-expand-lg navbar-light bg-light">
+          {/*<nav className="navbar navbar-expand-lg navbar-light bg-light">
             <ul className="navbar-nav mr-auto">
               <li>
                 <Link to={"/"} className="nav-link">
@@ -37,13 +37,13 @@ class App extends Component {
                 </Link>
               </li>
             </ul>
-          </nav>
+          </nav>*/}
           <hr />
           <Switch>
-            <Route exact path="/" component={LandingPage} />
             <Route path="/header" component={Header} />
-            <Route path="/footer" component={Footer} />
+            <Route exact path="/" component={LandingPage} />
             <Route path="/submit" component={FileSubmission} />
+            <Route path="/footer" component={Footer} />
           </Switch>
         </div>
       </Router>

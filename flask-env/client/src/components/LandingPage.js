@@ -1,12 +1,12 @@
 import React, { Fragment } from "react";
-import Navbar from "./Navbar";
 import Footer from "./Footer";
 import ProfilePage from "./ProfilePage/ProfilePage";
+import Home from "./Home"
 
 function LandingPage() {
   return (
     <Fragment>
-      <Navbar />
+      <Home />
       <ProfilePage />
       <Footer />
     </Fragment>

@@ -24,6 +24,7 @@ class App extends Component {
             <Route path="/profile" component={ProfilePage} />
             <Route path="/footer" component={Footer} />
           </Switch>
+          <Footer />
         </div>
       </Router>
     );

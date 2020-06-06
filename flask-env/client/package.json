@@ -50,11 +50,7 @@
     "react-app-polyfill": "^1.0.6",
     "react-dev-utils": "^10.2.1",
     "react-dom": "^16.13.1",
-<<<<<<< HEAD
-    "react-router-dom": "^5.2.0",
-=======
     "react-router-dom": "^4.3.1",
->>>>>>> 1c5051986d16f28369a751963d13c051325f49da
     "resolve": "1.15.0",
     "resolve-url-loader": "3.1.1",
     "sass-loader": "8.0.2",

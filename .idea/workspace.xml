@@ -3,18 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3db8fb39-c35a-4d2a-bdc8-8506a1c8e0a1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask-env/client/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask-env/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/flask-env/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask-env/client/src/components/FileSubmission.js" beforeDir="false" afterPath="$PROJECT_DIR$/flask-env/client/src/components/FileSubmission.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask-env/server/static/react/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/flask-env/server/static/react/asset-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask-env/server/static/react/js/2.770573d9.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask-env/server/static/react/js/2.770573d9.chunk.js.LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask-env/server/static/react/js/2.770573d9.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask-env/server/static/react/js/main.5d752e85.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask-env/server/static/react/js/main.5d752e85.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask-env/server/static/react/precache-manifest.1cda76956a58ea39b8d364e1b2711a73.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask-env/server/static/react/service-worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/flask-env/server/static/react/service-worker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask-env/server/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/flask-env/server/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +22,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -55,6 +44,7 @@
       <workItem from="1591386758781" duration="20000" />
       <workItem from="1591402189679" duration="4715000" />
       <workItem from="1591409611769" duration="1345000" />
+      <workItem from="1591458197673" duration="335000" />
     </task>
     <servers />
   </component>

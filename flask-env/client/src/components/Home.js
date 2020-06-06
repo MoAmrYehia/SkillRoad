@@ -1,5 +1,7 @@
 import React from 'react';
 import logo from './logo_b.png'
+import button from './Home/UploadButton'
+
 
 function Header() {
     return (
@@ -16,6 +18,7 @@ function Header() {
                 className="d-inline-block align-top"
                 alt="SkillRoad logo"
             />
+            <button />
         </div>
     )
 }

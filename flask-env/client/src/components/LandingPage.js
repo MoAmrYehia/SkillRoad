@@ -1,15 +1,12 @@
-import React from "react";
-
+import React, { Fragment } from "react";
 import Header from "./Header";
 import Footer from "./Footer";
-
 function LandingPage() {
-    return (
-        <>
-        <Header />
-        <Footer />
-        </>
-    )
+  return (
+    <Fragment>
+      <Header />
+      <Footer />
+    </Fragment>
+  );
 }
-
-export default LandingPage
+export default LandingPage;

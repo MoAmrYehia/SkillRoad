@@ -2,9 +2,8 @@ from flask import Flask, jsonify, render_template, request
 from flask_cors import CORS, cross_origin
 from http_status import HttpStatus
 
-# import nltk
+from gensim.models import Word2Vec
 import os
-# import pickle
 from pyresparser import ResumeParser
 from werkzeug.utils import secure_filename
 
@@ -12,10 +11,6 @@ PARENT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), os.pardir))
 BASE_DIR = os.path.dirname(__file__)
 UPLOAD_FOLDER = os.path.join(BASE_DIR, 'static/pdfs')
 ALLOWED_EXTENSIONS = set(['pdf'])
-
-# print(os.path.join(PARENT_DIR, 'nltk_data/corpora'))
-# nltk.download('stopwords', download_dir=os.path.join(PARENT_DIR, 'nltk_data/corpora'))
-# nltk.data.path.append(os.path.join(BASE_DIR, 'nltk_data'))
 
 app = Flask(__name__)
 CORS(app)
@@ -36,6 +31,12 @@ def upload_and_predict():
 
     # print({"filename": obj})
     return jsonify({"parsed_cv": obj}), HttpStatus.ok_200.value
+
+@app.route('/api/predict/skills', methods=['POST'])
+def predict_skills():
+    model = Word2Vec.load(os.path.join(PARENT_DIR, 'server/model/"rained_model_skills.bin'))
+    w = request.args['relatedskills']
+    return jsonify(model.most_similar(positive=[w], topn=10)), HttpStatus.ok_200.value
     
 if __name__ == '__main__':
     app.run(debug=True)

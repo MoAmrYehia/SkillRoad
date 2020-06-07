@@ -133,6 +133,9 @@ class FileSubmission extends Component {
                   <h6>{skill}</h6>
                 ))}
               </div>
+              <Button size="lg" variant="red" href="/profile">
+                Discover new skills!
+              </Button>
               <hr />
             </div>
           </Col>

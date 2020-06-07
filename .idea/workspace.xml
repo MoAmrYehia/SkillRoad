@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbb56871-f5d9-49de-afe7-85347c82547b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/flask-env/server/static/react/js/main.02a23182.chunk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flask-env/server/static/react/js/main.02a23182.chunk.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flask-env/server/static/react/precache-manifest.31dbe18a9577208c4d494a55a03099e0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flask-env/server/static/react/js/main.0eb588c1.chunk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flask-env/server/static/react/js/main.0eb588c1.chunk.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flask-env/server/static/react/precache-manifest.cdcad4e9d4c02417645b01fc2952378e.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flask-env/client/src/components/ProfilePage/ProfilePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/flask-env/client/src/components/ProfilePage/ProfilePage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flask-env/server/static/react/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/flask-env/server/static/react/asset-manifest.json" afterDir="false" />
@@ -73,7 +73,7 @@
       <workItem from="1591480732309" duration="1595000" />
       <workItem from="1591485308866" duration="3525000" />
       <workItem from="1591506196424" duration="261000" />
-      <workItem from="1591539710698" duration="4894000" />
+      <workItem from="1591539710698" duration="5390000" />
     </task>
     <servers />
   </component>

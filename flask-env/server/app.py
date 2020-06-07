@@ -39,8 +39,7 @@ def upload_and_predict():
     for k, v in obj.items():
         if not v:
             obj[k] = []
-
-    # print({"filename": obj})
+            
     return jsonify({"parsed_cv": obj}), HttpStatus.ok_200.value
 
 @app.route('/api/predict/skills', methods=['POST'])
@@ -50,8 +49,8 @@ def predict_skills():
 
     pred = model.most_similar(positive=[w], topn=10)
 
-    print(pred)
     return jsonify(pred), HttpStatus.ok_200.value
     
 if __name__ == '__main__':
-    app.run(debug=True)
+	port = int(os.environ.get('PORT', 5000))
+	app.run(host='0.0.0.0', port=port)

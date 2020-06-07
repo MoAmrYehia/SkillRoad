@@ -14,10 +14,17 @@ class ProfilePage extends Component {
     this.onSubmit = this.onSubmit.bind(this);
   }
 
-  onSubmit(e) {
+  onChangeHandler = (e) => {
+    e.preventDefault();
+    this.setState({
+      skill: e.target.value,
+    });
+  };
+
+  onSubmit = (e) => {
     e.preventDefault();
     const data = new FormData();
-    data.append("skill", e.target);
+    data.append("skill", this.state.skill);
 
     console.log(data);
 
@@ -35,9 +42,8 @@ class ProfilePage extends Component {
         this.setState({
           skill: data,
         });
-        console.log(data);
       });
-  }
+  };
 
   render() {
     return (
@@ -45,18 +51,23 @@ class ProfilePage extends Component {
         <Row className="justify-content-center mb-5" style={{ marginTop: 30 }}>
           <Col className="mb-5">
             <form onSubmit={this.onSubmit}>
-              <div class="form-row">
-                <div class="form-group col-md-6">
-                  <div class="form-group col-md-4">
+              <div className="form-row">
+                <div className="form-group col-md-6">
+                  <div className="form-group col-md-4">
                     <label for="inputState">Skill</label>
-                    <select id="inputState" class="form-control">
+                    <select
+                      className="form-control"
+                      onChange={this.onChangeHandler}
+                    >
                       <option selected>Choose...</option>
                       <option>SQL</option>
                     </select>
                   </div>
-                  <Button size="sm" variant="success" href="/profile">
-                    Find out more!
-                  </Button>
+                  <div>
+                    <Button type="submit" size="sm" variant="success">
+                      Find out more!
+                    </Button>
+                  </div>
                 </div>
               </div>
             </form>

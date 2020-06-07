@@ -21,6 +21,14 @@ CORS(app)
 def index():
     return render_template('index.html')
 
+@app.route('/submit')
+def submit():
+    return render_template('index.html')
+
+@app.route('/profile')
+def profile():
+    return render_template('index.html')
+
 @app.route('/api/upload/', methods=['POST'])
 def upload_and_predict():
     file = request.files['file']
@@ -28,15 +36,22 @@ def upload_and_predict():
     file.save(os.path.join(UPLOAD_FOLDER, filename))
 
     obj = data = ResumeParser(os.path.join(PARENT_DIR, f'server/static/pdfs/{filename}')).get_extracted_data()
+    for k, v in obj.items():
+        if not v:
+            obj[k] = []
 
     # print({"filename": obj})
     return jsonify({"parsed_cv": obj}), HttpStatus.ok_200.value
 
 @app.route('/api/predict/skills', methods=['POST'])
 def predict_skills():
-    model = Word2Vec.load(os.path.join(PARENT_DIR, 'server/model/"rained_model_skills.bin'))
-    w = request.args['relatedskills']
-    return jsonify(model.most_similar(positive=[w], topn=10)), HttpStatus.ok_200.value
+    model = Word2Vec.load(os.path.join(PARENT_DIR, 'server/model/trained_model_skills.bin'))
+    w = request.args['skill']
+
+    pred = model.most_similar(positive=[w], topn=10)
+
+    print(pred)
+    return jsonify(pred), HttpStatus.ok_200.value
     
 if __name__ == '__main__':
     app.run(debug=True)

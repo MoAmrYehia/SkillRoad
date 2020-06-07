@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
+
 import Button from "react-bootstrap/Button";
 import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
@@ -133,9 +135,13 @@ class FileSubmission extends Component {
                   <h6>{skill}</h6>
                 ))}
               </div>
-              <Button size="lg" variant="red" href="/profile">
-                Discover new skills!
-              </Button>
+              <div className="mt-3">
+                <Link to={"/profile"}>
+                  <Button size="sm" variant="success" href="/profile">
+                    Discover your SkillRoad!
+                  </Button>
+                </Link>
+              </div>
               <hr />
             </div>
           </Col>

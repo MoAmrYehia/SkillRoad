@@ -2,17 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbb56871-f5d9-49de-afe7-85347c82547b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/flask-env/client/public/_redirects" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flask-env/server/static/react/_redirects" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flask-env/server/static/react/js/main.c282f58c.chunk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flask-env/server/static/react/js/main.c282f58c.chunk.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flask-env/server/static/react/precache-manifest.2c7200ab890852ba2054616af7d0e2dc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flask-env/server/static/react/js/main.02a23182.chunk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flask-env/server/static/react/js/main.02a23182.chunk.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flask-env/server/static/react/precache-manifest.31dbe18a9577208c4d494a55a03099e0.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask-env/client/src/components/FileSubmission.js" beforeDir="false" afterPath="$PROJECT_DIR$/flask-env/client/src/components/FileSubmission.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask-env/client/src/components/ProfilePage/ProfilePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/flask-env/client/src/components/ProfilePage/ProfilePage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flask-env/server/static/react/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/flask-env/server/static/react/asset-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask-env/server/static/react/js/main.89a7798b.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask-env/server/static/react/js/main.89a7798b.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask-env/server/static/react/precache-manifest.2c47b71eff0ef445de5afb48d72b4743.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask-env/server/static/react/js/main.c7670f64.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask-env/server/static/react/js/main.c7670f64.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask-env/server/static/react/js/main.ec6b11ec.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask-env/server/static/react/js/main.ec6b11ec.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask-env/server/static/react/precache-manifest.3663d6e4bb37eb1a7d93cfbd9eecdb7d.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask-env/server/static/react/precache-manifest.e3488960049043e1ee039bd5d878e01a.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/flask-env/server/static/react/service-worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/flask-env/server/static/react/service-worker.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flask-env/server/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/flask-env/server/templates/index.html" afterDir="false" />
     </list>
@@ -72,7 +73,7 @@
       <workItem from="1591480732309" duration="1595000" />
       <workItem from="1591485308866" duration="3525000" />
       <workItem from="1591506196424" duration="261000" />
-      <workItem from="1591539710698" duration="2623000" />
+      <workItem from="1591539710698" duration="4894000" />
     </task>
     <servers />
   </component>

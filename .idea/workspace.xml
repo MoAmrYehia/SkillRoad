@@ -2,26 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbb56871-f5d9-49de-afe7-85347c82547b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/flask-env/client/src/components/logo_noback.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flask-env/client/src/components/octo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flask-env/server/static/react/js/2.a58bc7ef.chunk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flask-env/server/static/react/js/2.a58bc7ef.chunk.js.LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flask-env/server/static/react/js/2.a58bc7ef.chunk.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flask-env/server/static/react/js/main.c4a8154d.chunk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flask-env/server/static/react/js/main.c4a8154d.chunk.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flask-env/server/static/react/precache-manifest.155724497c92b8bbb0e653a5e1299e8f.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flask-env/server/static/pdfs/Palette.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flask-env/server/static/pdfs/Profile.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask-env/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/flask-env/client/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask-env/client/src/components/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/flask-env/client/src/components/Footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask-env/server/static/react/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/flask-env/server/static/react/asset-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask-env/server/static/react/js/2.0aad9b2f.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask-env/server/static/react/js/2.0aad9b2f.chunk.js.LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask-env/server/static/react/js/2.0aad9b2f.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask-env/server/static/react/js/main.3499b92f.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask-env/server/static/react/js/main.3499b92f.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask-env/server/static/react/precache-manifest.da0f7b2b0dcee17ba69b3e67c117802f.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask-env/server/static/react/service-worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/flask-env/server/static/react/service-worker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask-env/server/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/flask-env/server/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask-env/client/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/flask-env/client/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +60,7 @@
       <updated>1591476331240</updated>
       <workItem from="1591476333936" duration="2687000" />
       <workItem from="1591480732309" duration="1595000" />
+      <workItem from="1591485308866" duration="3525000" />
     </task>
     <servers />
   </component>

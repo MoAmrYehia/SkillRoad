@@ -46,7 +46,7 @@ def upload_and_predict():
 @app.route('/api/predict/skills', methods=['POST'])
 def predict_skills():
     model = Word2Vec.load(os.path.join(PARENT_DIR, 'server/model/trained_model_skills.bin'))
-    w = request.args['skill']
+    w = request.form['skill']
 
     pred = model.most_similar(positive=[w], topn=10)
 

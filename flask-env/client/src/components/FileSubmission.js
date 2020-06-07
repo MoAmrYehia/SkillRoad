@@ -54,11 +54,22 @@ class FileSubmission extends Component {
             method: "POST",
             body: data,
         }).then((res) => {
-            console.log(res.json());
+            console.log();
+            const ret = res.json();
+            console.log(ret);
+            return ret;
+        }).then((data) => {
+            this.setState({info: data})
         });
     };
 
     render() {
+        console.log('Rendering', this.state);
+        const {info} = this.state;
+        console.log('info', info);
+        const email = (info && info.parsed_cv) ? 'Email: ' + info.parsed_cv.email : '';
+        const skills = (info && info.parsed_cv) ? info.parsed_cv.skills : [];
+
         return (
             //   <form onSubmit={this.handleUpload}>
             //     <div>
@@ -85,21 +96,40 @@ class FileSubmission extends Component {
             //     {/* <img src={this.state.imageURL} alt="img" /> */}
             //   </form>
             <Container>
-                {/* Stack the columns on mobile by making one full-width and the other half-width */}
-                <Row className="justify-content-md-center" style={{ marginTop: 100 }}>
+
+                <Row className="justify-content-md-center" style={{marginTop: 100}}>
                     <Col md="auto">
-                            <input type="file" name="file" onChange={this.onChangeHandler}/>
+                        <input type="file" name="file" onChange={this.onChangeHandler}/>
                     </Col>
                 </Row>
-                <Row className="justify-content-md-center" style={{ marginTop: 30 }}>
+
+                <Row className="justify-content-md-center" style={{marginTop: 30}}>
                     <Col md="auto">
-                            <Button
-                                size="lg"
-                                variant="dark"
-                                onClick={this.onClickHandler}
-                            >
-                                Complete upload
-                            </Button>
+                        <Button
+                            size="lg"
+                            variant="dark"
+                            onClick={this.onClickHandler}
+                        >
+                            Complete upload
+                        </Button>
+                    </Col>
+                </Row>
+
+                <Row className="justify-content-md-center" style={{marginTop: 30}}>
+                    <Col md="auto">
+                        <p>{email}</p>
+                    </Col>
+                </Row>
+
+                <Row className="justify-content-md-center" style={{marginTop: 30}}>
+                    <Col md="auto">
+                        <ul>
+                            {skills.map(skill =>
+                                <li key={skill}>
+                                    <p>{skill}</p>
+                                </li>
+                            )}
+                        </ul>
                     </Col>
                 </Row>
 

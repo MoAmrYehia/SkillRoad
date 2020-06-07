@@ -14,11 +14,11 @@ function LandingPage() {
         </p>
       </div>
       <div className="text-center">
-        <Link to={"/profile"}>
+        {/* <Link to={"/profile"}>
           <Button variant="dark">Start your SkillRoad</Button>
-        </Link>
+        </Link> */}
         <Link to={"/submit"}>
-          <Button variant="dark">File Submission</Button>
+          <Button variant="dark">Get Started!</Button>
         </Link>
       </div>
     </Fragment>

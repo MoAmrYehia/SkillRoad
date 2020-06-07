@@ -2,8 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbb56871-f5d9-49de-afe7-85347c82547b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flask-env/client/public/_redirects" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flask-env/server/static/react/_redirects" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flask-env/server/static/react/js/main.c282f58c.chunk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flask-env/server/static/react/js/main.c282f58c.chunk.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flask-env/server/static/react/precache-manifest.2c7200ab890852ba2054616af7d0e2dc.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask-env/client/src/components/FileSubmission.js" beforeDir="false" afterPath="$PROJECT_DIR$/flask-env/client/src/components/FileSubmission.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask-env/server/static/react/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/flask-env/server/static/react/asset-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask-env/server/static/react/js/main.89a7798b.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask-env/server/static/react/js/main.89a7798b.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask-env/server/static/react/precache-manifest.2c47b71eff0ef445de5afb48d72b4743.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask-env/server/static/react/service-worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/flask-env/server/static/react/service-worker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask-env/server/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/flask-env/server/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +39,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/flask-env/client/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/flask-env/client/public" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -38,11 +49,12 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/flask-env/client/src/components" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/flask-env/client/public" />
       <recent name="$PROJECT_DIR$/flask-env/client/src" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/flask-env/client/src/components" />
       <recent name="$PROJECT_DIR$/flask-env/client/src" />
     </key>
   </component>
@@ -59,6 +71,8 @@
       <workItem from="1591476333936" duration="2687000" />
       <workItem from="1591480732309" duration="1595000" />
       <workItem from="1591485308866" duration="3525000" />
+      <workItem from="1591506196424" duration="261000" />
+      <workItem from="1591539710698" duration="2623000" />
     </task>
     <servers />
   </component>

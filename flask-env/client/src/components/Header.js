@@ -1,43 +1,48 @@
 import React from 'react';
 import Navbar from 'react-bootstrap/Navbar';
-import logo from './logo_b.png'
+import logo from './logo_b.png';
+// import {Navbar, NavbarBrand, Container} from 'reactstrap';
 
 function Header() {
     return (
         <>
-            <Navbar bg="light">
-                <Navbar.Brand href="#home">Brand link</Navbar.Brand>
-            </Navbar>
-            <br/>
-            <Navbar bg="light">
-                <Navbar.Brand>Brand text</Navbar.Brand>
-            </Navbar>
-            <br/>
-            <Navbar bg="dark">
-                <Navbar.Brand href="#home">
-                    <img
-                        src="logo_b.png"
-                        width="30"
-                        height="30"
-                        className="d-inline-block align-top"
-                        alt="React Bootstrap logo"
-                    />
-                </Navbar.Brand>
-            </Navbar>
-            <br/>
             <Navbar bg="dark" variant="dark">
                 <Navbar.Brand href="#home">
                     <img
                         alt=""
-                        src="/logo.svg"
+                        src={logo}
                         width="30"
                         height="30"
                         className="d-inline-block align-top"
                     />{' '}
-                    React Bootstrap
+                    SkillRoad
                 </Navbar.Brand>
             </Navbar>
         </>
+        // <>
+        //     <header className="header-global">
+        //       <Navbar
+        //         className="navbar-main navbar-transparent navbar-light"
+        //         expand="lg"
+        //         id="navbar-main"
+        //       >
+        //         <Container>
+        //           <NavbarBrand className="mr-lg-5" to="/home" tag={Link}>
+        //             <img
+        //               alt="SkillRoad"
+        //               height="30"
+        //               width="30"
+        //               src={logo}
+        //             />
+        //           </NavbarBrand>
+        //           <button className="navbar-toggler" id="navbar_global">
+        //             <span className="navbar-toggler-icon" />
+        //           </button>
+        //         </Container>
+        //       </Navbar>
+        //     </header>
+        //   </>
+
     )
 }
 

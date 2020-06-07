@@ -51,6 +51,7 @@
     "react-bootstrap": "^1.0.1",
     "react-dev-utils": "^10.2.1",
     "react-dom": "^16.13.1",
+    "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0",
     "resolve": "1.15.0",
     "resolve-url-loader": "3.1.1",
@@ -139,5 +140,10 @@
     "presets": [
       "react-app"
     ]
+  },
+  "devDependencies": {
+    "@material-ui/core": "^4.10.1",
+    "@material-ui/icons": "^4.9.1",
+    "reactstrap": "^8.4.1"
   }
 }

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fbb56871-f5d9-49de-afe7-85347c82547b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/flask-env/client/src/components/logo_noback.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flask-env/client/src/components/octo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flask-env/server/static/react/js/2.a58bc7ef.chunk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flask-env/server/static/react/js/2.a58bc7ef.chunk.js.LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flask-env/server/static/react/js/2.a58bc7ef.chunk.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flask-env/server/static/react/js/main.c4a8154d.chunk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flask-env/server/static/react/js/main.c4a8154d.chunk.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flask-env/server/static/react/precache-manifest.155724497c92b8bbb0e653a5e1299e8f.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask-env/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/flask-env/client/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask-env/client/src/components/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/flask-env/client/src/components/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask-env/server/static/react/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/flask-env/server/static/react/asset-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask-env/server/static/react/js/2.0aad9b2f.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask-env/server/static/react/js/2.0aad9b2f.chunk.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask-env/server/static/react/js/2.0aad9b2f.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask-env/server/static/react/js/main.3499b92f.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask-env/server/static/react/js/main.3499b92f.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask-env/server/static/react/precache-manifest.da0f7b2b0dcee17ba69b3e67c117802f.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask-env/server/static/react/service-worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/flask-env/server/static/react/service-worker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask-env/server/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/flask-env/server/templates/index.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1cxhp4s4Mh5rnZJ7GOqb3fAZnI5" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/flask-env/client/src" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/flask-env/client/src/components" />
+      <recent name="$PROJECT_DIR$/flask-env/client/src" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/flask-env/client/src" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fbb56871-f5d9-49de-afe7-85347c82547b" name="Default Changelist" comment="" />
+      <created>1591476331240</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591476331240</updated>
+      <workItem from="1591476333936" duration="2687000" />
+      <workItem from="1591480732309" duration="1595000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1419" height="240" key="GridCell.Tab.0.bottom" timestamp="1591481006072">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="240" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1591481006072" />
+    <state width="1419" height="240" key="GridCell.Tab.0.center" timestamp="1591481006071">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="240" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1591481006071" />
+    <state width="1419" height="240" key="GridCell.Tab.0.left" timestamp="1591481006070">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="240" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1591481006070" />
+    <state width="1419" height="240" key="GridCell.Tab.0.right" timestamp="1591481006072">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="240" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1591481006072" />
+    <state x="561" y="251" width="670" height="676" key="search.everywhere.popup" timestamp="1591478302427">
+      <screen x="0" y="23" width="1792" height="1031" />
+    </state>
+    <state x="561" y="251" width="670" height="676" key="search.everywhere.popup/1792.23.1680.1027/-1920.23.1920.1057/0.23.1792.1031@0.23.1792.1031" timestamp="1591478302427" />
+  </component>
+</project>

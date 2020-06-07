@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbb56871-f5d9-49de-afe7-85347c82547b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/flask-env/server/static/pdfs/Palette.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flask-env/server/static/pdfs/Profile.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask-env/client/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/flask-env/client/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask-env/client/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/flask-env/client/public/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

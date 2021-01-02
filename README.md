@@ -30,6 +30,15 @@ Our website has advanced machine learning and AI algorithms to make sure that yo
 * The second model predicts the relevant skills and careers by using word2vec.
 * With this new skill set, we predict the next career level and show it to users.
 
+## Running the App 
+
+```python
+cd flask-env
+source bin/activate
+python server/api.py
+```
+> then go to localhost:5000, the app does NOT run on localhost:3000
+
 ## Challenges we ran into
 * Create a complete Machine learning web application using React and Flask. 
 

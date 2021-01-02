@@ -1,4 +1,8 @@
 # SkillRoad
+
+<p align="center">
+    <img src="https://raw.githubusercontent.com/MoAmrYehia/SkillRoad/master/gallery.jpeg">
+</p>
 SkillRoad is a career advisor platform that allows our users to be ready for their next career level.
 ### Links
 - Devpost: https://devpost.com/software/skillroad

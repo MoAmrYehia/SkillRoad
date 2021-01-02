@@ -43,7 +43,7 @@ python server/api.py
 > then go to localhost: **5000**
 
 ## Pre-Trained Model
-> We are providing a pretraind model and its RESTful API. 
+> We are providing a pretraind model and its RESTful API at **Predict ReleventSkills**. 
 
 > The model was trained on a 10K samples out of 2M
 

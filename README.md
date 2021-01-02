@@ -39,18 +39,6 @@ python server/api.py
 ```
 > then go to localhost:5000, the app does NOT run on localhost:3000
 
-## Challenges we ran into
-* Create a complete Machine learning web application using React and Flask. 
-
-## Accomplishments that we're proud of
-
-* Deploying ML models on a real-life project.
-* Connect Flask and React.
-
-## What we learned
-
-- Deploy Flask with React.
-- Flask.
 
 ## What's next for SkillRoad
 

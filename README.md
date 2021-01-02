@@ -47,6 +47,10 @@ python server/api.py
 
 > The model was trained on a 10K samples out of 2M
 
+## ResumeParser
+
+A utility to make handling many resumes easier by automatically pulling contact information, required skills and custom text fields. These results are then surfaced as a convenient summary CSV. Feel free to check [ResumeParser](https://github.com/MoAmrYehia/SkillRoad/tree/master/ResumeParser) package.
+
 ## What's next for SkillRoad
 
 SkillRoad will help anybody who is looking for a new job in their field, looking for improving their actual and future skills, and looking to get acquainted to some ideas that they may not have known before. Furthermore, it would display recommend courses, useful material, and open-source projects perfect for strengthen your skills.

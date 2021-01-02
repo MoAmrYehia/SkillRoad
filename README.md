@@ -44,6 +44,7 @@ python server/api.py
 
 ## Pre-Trained Model
 > We are providing a pretraind model and its RESTful API. 
+
 > The model was trained on a 10K samples out of 2M
 
 ## What's next for SkillRoad

@@ -17,11 +17,7 @@ You are unlikely to start charting a course, unless and until you know the desti
 
 ## What it does
 
-**SkillRoad** is a career advisor platform that allows our users to be ready for their next career level. It is your guide to finding the appropriate career path for you.
-
-SkillRoad parses our users' skills. Then, it recommends different roadmaps for the next career level based on their skills. Finally, we provide our users with suitable courses to achieve their goals.
-
-At SkillRoad we use Artificial Intelligence to analyze your actual skillset and find an enhanced career paths appropriate for you! Feel free to take a look at our interactive Home page, where you can get a trial of our services.
+**SkillRoad** is a career advisor platform that allows our users to be ready for their next career level. It is your guide to finding the appropriate career path for you. SkillRoad parses our users' skills. Then, it recommends different roadmaps for the next career level based on their skills. Finally, we provide our users with suitable courses to achieve their goals. At SkillRoad, we use Artificial Intelligence to analyze your actual skillset and find an enhanced career path appropriate for you! Feel free to take a look at our interactive Home page, where you can get a trial of our services.
 
 ## How we built it
 Our website has advanced machine learning and AI algorithms to make sure that you 'll identify the gap between your skills and market needs, and it works as follow: 

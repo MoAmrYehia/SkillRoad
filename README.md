@@ -30,6 +30,13 @@ Our website has advanced machine learning and AI algorithms to make sure that yo
 * The second model predicts the relevant skills and careers by using word2vec.
 * With this new skill set, we predict the next career level and show it to users.
 
+## Install Dependencies 
+
+```
+cd flask-env
+pip install -r requirements.txt
+```
+
 ## Running the App 
 
 ```python
@@ -37,7 +44,7 @@ cd flask-env
 source bin/activate
 python server/api.py
 ```
-> then go to localhost:5000, the app does NOT run on localhost:3000
+> then go to localhost: **5000**
 
 
 ## What's next for SkillRoad

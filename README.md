@@ -50,8 +50,8 @@ SkillRoad will help anybody who is looking for a new job in their field, looking
 To continue our project we will look for people in that field that if our users have any questions they can reach out to get any answers that they desire. We hope that SkillRoad will helps to improve our skillset and know our right job path.
 
 ## Demo
-<a href="https://www.youtube.com/watch?v=tN_vtr8fDaQ&feature=emb_title" target="_blank"><img src="http://img.youtube.com/vi/watch?v=tN_vtr8fDaQ/0.jpg" 
-alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+<a href="https://www.youtube.com/watch?v=tN_vtr8fDaQ&feature=emb_title" target="_blank"><img src="http://i3.ytimg.com/vi/tN_vtr8fDaQ/maxresdefault.jpg" 
+alt="SkillRoad Demo" width="240" height="180" border="10" /></a>
 
 ## Current Contributors
 <a href="https://github.com/MoAmrYehia/SkillRoad/graphs/contributors">

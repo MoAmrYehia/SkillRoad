@@ -48,3 +48,8 @@ Our website has advanced machine learning and AI algorithms to make sure that yo
 SkillRoad will help anybody who is looking for a new job in their field, looking for improving their actual and future skills, and looking to get acquainted to some ideas that they may not have known before. Furthermore, it would display recommend courses, useful material, and open-source projects perfect for strengthen your skills.
 
 To continue our project we will look for people in that field that if our users have any questions they can reach out to get any answers that they desire. We hope that SkillRoad will helps to improve our skillset and know our right job path.
+
+## Current Contributors
+<a href="https://github.com/MoAmrYehia/SkillRoad/graphs/contributors">
+  <img src="https://contributors-img.web.app/image?repo=MoAmrYehia/SkillRoad" />
+</a>
